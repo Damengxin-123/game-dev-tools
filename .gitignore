@@ -1,0 +1,24 @@
+.godot/
+.tools/
+build/
+bin/
+dist/
+*.user
+
+# 工作数据与示例工程暂不上传
+/数据/
+/示例/
+*.level.json
+*.level.json.*
+
+# 本机生成文件与私密配置
+obj/
+.vs/
+*.bak
+*.tmp
+*.log
+*.lock
+.工作区锁
+.env
+.env.*
+export_credentials.cfg

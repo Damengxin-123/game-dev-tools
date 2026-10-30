@@ -1,0 +1,28 @@
+; 游戏开发辅助工具：Godot 原生桌面界面。
+config_version=5
+
+[application]
+config/name="游戏开发辅助工具"
+config/icon="res://assets/工具.svg"
+run/main_scene="res://scenes/主界面.tscn"
+config/features=PackedStringArray("4.6", "C#", "Mobile")
+config/use_custom_user_dir=true
+config/custom_user_dir_name="游戏开发辅助工具"
+run/low_processor_mode=true
+
+[display]
+window/size/viewport_width=1480
+window/size/viewport_height=920
+window/size/window_width_override=1480
+window/size/window_height_override=920
+window/stretch/mode="canvas_items"
+
+[dotnet]
+project/assembly_name="GameDevTools"
+
+[rendering]
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
+anti_aliasing/quality/msaa_2d=2
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.969, 0.976, 0.988, 1)
